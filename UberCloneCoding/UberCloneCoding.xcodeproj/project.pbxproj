@@ -14,6 +14,7 @@
 		D8DEDCD3282B77750081A172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DEDCD1282B77750081A172 /* LaunchScreen.storyboard */; };
 		D8DEDCE2282B79870081A172 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DEDCE1282B79870081A172 /* LoginController.swift */; };
 		D8DEDCE4282B7DD90081A172 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DEDCE3282B7DD90081A172 /* Extensions.swift */; };
+		D8DEDCE6282B95EB0081A172 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DEDCE5282B95EB0081A172 /* SignUpController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D8DEDCD4282B77750081A172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8DEDCE1282B79870081A172 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		D8DEDCE3282B7DD90081A172 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D8DEDCE5282B95EB0081A172 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				D8DEDCE1282B79870081A172 /* LoginController.swift */,
+				D8DEDCE5282B95EB0081A172 /* SignUpController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DEDCE6282B95EB0081A172 /* SignUpController.swift in Sources */,
 				D8DEDCC7282B77720081A172 /* AppDelegate.swift in Sources */,
 				D8DEDCE2282B79870081A172 /* LoginController.swift in Sources */,
 				D8DEDCC9282B77720081A172 /* SceneDelegate.swift in Sources */,
