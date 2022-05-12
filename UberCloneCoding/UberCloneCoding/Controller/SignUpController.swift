@@ -114,7 +114,7 @@ class SignUpController: UIViewController {
                           "accountType": accountTypeIndex] as [String : Any]
             
             Database.database().reference().child("users").child(uid).updateChildValues(values) { error, ref in
-                print("Successfully registered user and saved data..")
+                self.dismiss(animated: true)
             }
         }
     }
