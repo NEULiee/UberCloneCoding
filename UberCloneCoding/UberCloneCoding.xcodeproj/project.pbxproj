@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4DE4A9D7BAC1D3B184525D38 /* Pods_UberCloneCoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA82611CFA8C0A94A8A10B8 /* Pods_UberCloneCoding.framework */; };
 		D80802AB282D3FC600B58ADD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D80802AA282D3FC600B58ADD /* .gitignore */; };
+		D80802AD282D413100B58ADD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D80802AC282D413100B58ADD /* GoogleService-Info.plist */; };
 		D8DEDCC7282B77720081A172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DEDCC6282B77720081A172 /* AppDelegate.swift */; };
 		D8DEDCC9282B77720081A172 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DEDCC8282B77720081A172 /* SceneDelegate.swift */; };
 		D8DEDCCE282B77720081A172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DEDCCC282B77720081A172 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		A248081793F76222466F961F /* Pods-UberCloneCoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCloneCoding.debug.xcconfig"; path = "Target Support Files/Pods-UberCloneCoding/Pods-UberCloneCoding.debug.xcconfig"; sourceTree = "<group>"; };
 		D80802AA282D3FC600B58ADD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D80802AC282D413100B58ADD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D8DEDCC3282B77720081A172 /* UberCloneCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberCloneCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DEDCC6282B77720081A172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8DEDCC8282B77720081A172 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				D8DEDCCC282B77720081A172 /* Main.storyboard */,
 				D8DEDCCF282B77750081A172 /* Assets.xcassets */,
 				D8DEDCD1282B77750081A172 /* LaunchScreen.storyboard */,
+				D80802AC282D413100B58ADD /* GoogleService-Info.plist */,
 				D8DEDCD4282B77750081A172 /* Info.plist */,
 			);
 			path = UberCloneCoding;
@@ -205,6 +208,7 @@
 			files = (
 				D80802AB282D3FC600B58ADD /* .gitignore in Resources */,
 				D8DEDCD3282B77750081A172 /* LaunchScreen.storyboard in Resources */,
+				D80802AD282D413100B58ADD /* GoogleService-Info.plist in Resources */,
 				D8DEDCD0282B77750081A172 /* Assets.xcassets in Resources */,
 				D8DEDCCE282B77720081A172 /* Main.storyboard in Resources */,
 			);
